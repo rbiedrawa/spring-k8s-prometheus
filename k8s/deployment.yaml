@@ -16,7 +16,7 @@ spec:
         app: hello-world-service
     spec:
       containers:
-      - image: spring-prometheus:0.0.1-SNAPSHOT
+      - image: spring-k8s-prometheus:0.0.1-SNAPSHOT
         name: hello-world-service
         lifecycle:
           preStop:

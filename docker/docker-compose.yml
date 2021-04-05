@@ -1,7 +1,7 @@
 version: "2"
 services:
   hello-world-service:
-    image: spring-prometheus:0.0.1-SNAPSHOT
+    image: spring-k8s-prometheus:0.0.1-SNAPSHOT
     container_name: hello-world-service
     restart: always
     ports:

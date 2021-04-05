@@ -1,10 +1,10 @@
 apiVersion: skaffold/v2beta13
 kind: Config
 metadata:
-  name: spring-prometheus
+  name: spring-k8s-prometheus
 build:
   artifacts:
-  - image: spring-prometheus
+  - image: spring-k8s-prometheus
     buildpacks:
       builder: gcr.io/buildpacks/builder:v1
 deploy:
