@@ -1,4 +1,4 @@
-# Spring Boot Micrometer project configured to work with 
+# Spring Boot Micrometer with Prometheus Operator 
 
 This repository contains sample Spring Boot application that exposes metrics to Prometheus and Grafana.
 
