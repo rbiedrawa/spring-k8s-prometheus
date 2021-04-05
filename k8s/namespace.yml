@@ -1,0 +1,6 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: hello-world-service
+  labels:
+    name: hello-world-service
