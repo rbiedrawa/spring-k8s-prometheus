@@ -5,7 +5,7 @@ metadata:
   namespace: hello-world-service
   name: hello-world-service
   labels:
-    release: prometheus-operator # This name must match 'prometheus-community/kube-prometheus-stack' release name!!!
+    release: prometheus-operator # This name must match 'Prometheus Operator' release name!!!
 spec:
   selector:
     matchLabels:
