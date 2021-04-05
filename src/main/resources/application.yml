@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: hello-world
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: metrics,health,info,env,prometheus
+  metrics:
+    tags:
+      application: ${spring.application.name}
