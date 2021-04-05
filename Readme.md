@@ -20,7 +20,7 @@ The goal of this project was to showcase how to collect and monitor application'
 ## Features
 
 * Spring Boot Micrometer/Prometheus metrics integration.
-* Docker compose Prometheus and Grafana set up.
+* Prometheus and Grafana docker-compose set up.
 * Kubernetes setup for running demo application with [Prometheus Operator](https://github.com/prometheus-operator/kube-prometheus).
 * Service monitor [configuration](./k8s/service_monitor.yaml).
 
