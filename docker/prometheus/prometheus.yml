@@ -1,0 +1,11 @@
+global:
+  scrape_interval:     5s
+  evaluation_interval: 5s
+
+scrape_configs:
+  - job_name: 'hello-world-service'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['hello-world-service:8080']
+        labels:
+          application: hello-world-service
