@@ -83,7 +83,7 @@ Build docker image.
 
 * Install **Prometheus Operator** inside **monitoring** namespace.
   
-    * Install **helm**
+    * Install **helm**.
       ```shell
       brew install helm
       ```
@@ -100,11 +100,11 @@ Build docker image.
       kubectl create ns monitoring
       ```
       
-    * Install operator
+    * Install operator.
       ```shell
       helm install -n monitoring prometheus-operator prometheus-community/kube-prometheus-stack --set prometheus-node-exporter.hostRootFsMount=false
       ```
-      *** --set prometheus-node-exporter.hostRootFsMount=false added to resolve this[issue](https://github.com/prometheus-community/helm-charts/issues/467).
+      *** --set prometheus-node-exporter.hostRootFsMount=false added to resolve this [issue](https://github.com/prometheus-community/helm-charts/issues/467).
     
 * Start **hello-world** demo with **service-monitor**.
   
