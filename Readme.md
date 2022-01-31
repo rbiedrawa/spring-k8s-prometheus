@@ -9,7 +9,7 @@ The goal of this project was to showcase how to collect and monitor application'
 - [Features](#features)
 - [Architecture](#architecture)
 - [Getting Started](#getting-started)
-    * [Prerequisite](#prerequisite)
+    * [Prerequisites](#prerequisites)
     * [Installation](#installation)
     * [Usage](#usage)
         + [Docker](#docker)
@@ -30,11 +30,11 @@ The goal of this project was to showcase how to collect and monitor application'
 
 ## Getting Started
 
-### Prerequisite
+### Prerequisites
 
 * Java 11
 * Docker
-* Docker-Compose
+* Docker Compose
 * Kubernetes
 * Helm
 
